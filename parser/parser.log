@@ -1,0 +1,40 @@
+2026-02-01 21:05:32,075 | INFO | open: https://www.pogodaiklimat.ru/weather.php
+2026-02-01 21:05:36,350 | INFO | ui: cookie accepted
+2026-02-01 21:05:38,449 | INFO | ui: generic close clicked
+2026-02-01 21:05:38,450 | INFO | open station: https://www.pogodaiklimat.ru/weather.php?id=27612#close
+2026-02-01 21:06:13,497 | INFO | ui: generic close clicked
+2026-02-01 21:06:13,514 | INFO | dom: forms=3, selects=4, tables=2
+2026-02-01 21:06:13,514 | INFO | step: set period y=2011 m=01
+2026-02-01 21:06:17,665 | INFO | ui: generic close clicked
+2026-02-01 21:06:17,665 | INFO | step: find archive form (robust)
+2026-02-01 21:06:21,831 | INFO | ui: generic close clicked
+2026-02-01 21:06:21,838 | INFO | dom: forms=3, selects=4, tables=2
+2026-02-01 21:06:21,848 | INFO | form: found by names bday/fday/amonth/ayear
+2026-02-01 21:06:21,919 | INFO | form fields: last_day=fday, month=amonth, year=ayear
+2026-02-01 21:06:22,054 | INFO | step: click 'Найти'
+2026-02-01 21:06:23,567 | INFO | step: wait table
+2026-02-01 21:06:53,922 | ERROR | MONTH FAIL: 2011-01 | TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104622fd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x000000010461b3ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x00000001040fe83c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104147d68 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375340
+4   chromedriver                        0x0000000104186fdc _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634016
+5   chromedriver                        0x000000010413c06c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326960
+6   chromedriver                        0x00000001045e15dc cxxbridge1$str$ptr + 2826684
+7   chromedriver                        0x00000001045e4d1c cxxbridge1$str$ptr + 2840828
+8   chromedriver                        0x00000001045c6bec cxxbridge1$str$ptr + 2717644
+9   chromedriver                        0x00000001045e55a0 cxxbridge1$str$ptr + 2843008
+10  chromedriver                        0x00000001045b6cc4 cxxbridge1$str$ptr + 2652324
+11  chromedriver                        0x0000000104609a9c cxxbridge1$str$ptr + 2991740
+12  chromedriver                        0x0000000104609c18 cxxbridge1$str$ptr + 2992120
+13  chromedriver                        0x000000010461b044 cxxbridge1$str$ptr + 3062820
+14  libsystem_pthread.dylib             0x000000019c1c7c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019c1c2b80 thread_start + 8
+
+2026-02-01 21:06:54,117 | INFO | [debug] url = https://www.pogodaiklimat.ru/weather.php?id=27612&bday=1&fday=31&amonth=1&ayear=2011&bot=2
+2026-02-01 21:06:54,117 | INFO | [debug] saved: fail_2011_01_20260201_210653.html
+2026-02-01 21:06:54,117 | INFO | [debug] saved: fail_2011_01_20260201_210653.png
+2026-02-01 21:06:54,117 | INFO | step: set period y=2011 m=02
+2026-02-01 21:06:58,380 | INFO | ui: generic close clicked
+2026-02-01 21:06:58,380 | INFO | step: find archive form (robust)
